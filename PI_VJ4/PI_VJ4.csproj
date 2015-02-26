@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A1AEB9F3-B379-4BA9-A13A-2647AD6A3F06}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PI_VJ4</RootNamespace>
+    <AssemblyName>PI_VJ4</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RM_01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RM_01.Designer.cs">
+      <DependentUpon>RM_01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RM_02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RM_02.Designer.cs">
+      <DependentUpon>RM_02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RM_03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RM_03.Designer.cs">
+      <DependentUpon>RM_03.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RM_04.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RM_04.Designer.cs">
+      <DependentUpon>RM_04.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RM_05.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RM_05.Designer.cs">
+      <DependentUpon>RM_05.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RM_06.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RM_06.Designer.cs">
+      <DependentUpon>RM_06.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RM_07.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RM_07.Designer.cs">
+      <DependentUpon>RM_07.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RM_08.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RM_08.Designer.cs">
+      <DependentUpon>RM_08.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RM_09.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RM_09.Designer.cs">
+      <DependentUpon>RM_09.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RM_10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RM_10.Designer.cs">
+      <DependentUpon>RM_10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RM_11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RM_11.Designer.cs">
+      <DependentUpon>RM_11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RM_12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RM_12.Designer.cs">
+      <DependentUpon>RM_12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RM_13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RM_13.Designer.cs">
+      <DependentUpon>RM_13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RM_14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RM_14.Designer.cs">
+      <DependentUpon>RM_14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RM_15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RM_15.Designer.cs">
+      <DependentUpon>RM_15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RM_16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RM_16.Designer.cs">
+      <DependentUpon>RM_16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RM_17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RM_17.Designer.cs">
+      <DependentUpon>RM_17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RM_18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RM_18.Designer.cs">
+      <DependentUpon>RM_18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RM_19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RM_19.Designer.cs">
+      <DependentUpon>RM_19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RM_20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RM_20.Designer.cs">
+      <DependentUpon>RM_20.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RM_01.resx">
+      <DependentUpon>RM_01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RM_02.resx">
+      <DependentUpon>RM_02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RM_03.resx">
+      <DependentUpon>RM_03.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RM_04.resx">
+      <DependentUpon>RM_04.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RM_05.resx">
+      <DependentUpon>RM_05.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RM_06.resx">
+      <DependentUpon>RM_06.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RM_07.resx">
+      <DependentUpon>RM_07.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RM_08.resx">
+      <DependentUpon>RM_08.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RM_09.resx">
+      <DependentUpon>RM_09.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RM_10.resx">
+      <DependentUpon>RM_10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RM_11.resx">
+      <DependentUpon>RM_11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RM_12.resx">
+      <DependentUpon>RM_12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RM_13.resx">
+      <DependentUpon>RM_13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RM_14.resx">
+      <DependentUpon>RM_14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RM_15.resx">
+      <DependentUpon>RM_15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RM_16.resx">
+      <DependentUpon>RM_16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RM_17.resx">
+      <DependentUpon>RM_17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RM_18.resx">
+      <DependentUpon>RM_18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RM_19.resx">
+      <DependentUpon>RM_19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RM_20.resx">
+      <DependentUpon>RM_20.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
