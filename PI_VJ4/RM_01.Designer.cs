@@ -65,6 +65,7 @@
             this.btnIzracunaj.TabIndex = 17;
             this.btnIzracunaj.Text = "Izračunaj";
             this.btnIzracunaj.UseVisualStyleBackColor = true;
+            this.btnIzracunaj.Click += new System.EventHandler(this.btnIzracunaj_Click);
             // 
             // chkSpremi
             // 
